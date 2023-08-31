@@ -1,0 +1,117 @@
+* {
+  text-align: center;
+}
+
+.links-especialidades {
+  padding: 20px 0;
+}
+
+.links-especialidades nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.links-especialidades nav a {
+  border-bottom: 2px solid rgba(9, 240, 228, 0.849);
+  margin: 0 5px;
+  font-weight: 600;
+}
+
+.links-especialidades h1 {
+  color: rgba(0, 0, 0, 0.637);
+  font-size: 1.3em;
+  margin-top: 25px;
+}
+
+section h2 {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+section p {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+section img {
+  width: 300px;
+}
+
+.img-tabela {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.tabela-especialidade {
+  width: 700px;
+  border-spacing: 0;
+}
+
+.tabela-especialidade th{
+  background-color: rgba(0, 187, 187, 0.877);
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+}
+
+.tabela-especialidade td {
+  color: rgba(0, 0, 0, 0.637);
+  text-align: left;
+  padding: 0 10px;
+}
+
+.tabela-especialidade tbody tr:nth-child(odd) {
+  background-color: rgba(133, 135, 138, 0.425);
+}
+
+.tabela-especialidade tbody tr:nth-child(even) {
+  background-color: rgba(165, 167, 170, 0.205);
+}
+
+@media only screen and (max-width: 425px) {
+  section img {
+    display: none;
+  }
+
+  .tabela-especialidade td {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+
+  section p {
+    width: 100%;
+  }
+
+  section div:first-of-type {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  section {
+    padding: 0 20px;
+  }
+
+  section img{
+    display: none;
+  }
+
+  .tabela-especialidade {
+    width: 100%;
+  }
+
+  .tabela-especialidade td {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  section {
+    padding: 0 20px;
+  }
+}
